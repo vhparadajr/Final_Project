@@ -1,0 +1,116 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.block{
+  display: block;
+}
+
+/* section 1 */
+.miner1{
+  border: 2px solid black;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6em;
+}
+.sMiner{
+  font-size: 2em;
+  border-bottom: 1px solid blue;
+}
+.sActive{
+  font-size: 1.5em;
+  color: green;
+}
+
+/* section 2 */
+.miner2{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 100px;
+}
+.gpu{
+  border: 1px solid black;
+  width: 45%;
+  float: left;
+  padding: 8px;
+}
+.rate{
+  width: 45%;
+  border: 1px solid;
+  float: right;
+  padding: 8px;
+  display: inline-block;
+}
+/* section 3 */
+.revenue{
+  border: 1px solid;
+  width: 50%;
+  margin-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.day{
+  width: 50%;
+  text-align: none;
+  border: 1px solid;
+  float: left;
+}
+.month{
+  width: 50%;
+  border: 1px solid;
+  float: right;
+}
+/* section 4 */
+.coin{
+  border: 1px solid;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+li{
+  display: inline-block;
+  width: 32%;
+}
+
+/* buttons */
+.buttons{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+}
+button{
+  width: 32%;
+  padding: 8px;
+}
