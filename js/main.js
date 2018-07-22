@@ -5,14 +5,14 @@ $(document).ready(function(){
     e.preventDefault();
     // var stop = "?action=restart";
     // var apiKey = "464729fb";
-    var apiURL = "http://desktop-0dq00d9:17790/miner/4";
+    var apiURL = "http://desktop-0dq00d9:17790/api/summary";
 
 
     $.ajax({
       type: "GET",
         url: apiURL,
         contentType: "application/json; charset=utf-8",
-        // dataType: "json",
+        dataType: "json",
       // Work with the response
       success: function(res) {
         console.log(res)
