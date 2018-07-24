@@ -93,6 +93,7 @@ body {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  height: 130px;
 }
 ul{
   list-style: none;
@@ -100,7 +101,7 @@ ul{
 }
 li{
   display: inline-block;
-  width: 32%;
+  width: 24%;
 }
 
 /* buttons */
@@ -114,3 +115,7 @@ button{
   width: 32%;
   padding: 8px;
 }
+/* .block{
+  display: block;
+  height: 20px;
+} */
