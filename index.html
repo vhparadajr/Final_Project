@@ -20,12 +20,19 @@
 		</section>
 		<section class="miner2">
 			<div class="gpu">
-				<span class="block">GPU</span>
-				<span>8</span>
+				<div class="subLeft">
+					<span class="block">GPU</span>
+					<span id="gpus"></span>
+				</div>
+				<div class="subRight">
+					<span class="block">TEMP</span>
+					<span id="temp"></span>
+				</div>
+
 			</div>
 			<div class="rate">
 				<span class="block">BTC</span>
-				<span>$6,500.00</span>
+				<span id="exchange"></span>
 			</div>
 
 		</section>
@@ -34,11 +41,11 @@
 			<span class="sMiner block">Revenue</span>
 			<div class="day">
 				<span class="block">Day</span>
-				<span>$6.31</span>
+				<span id="profitDaily"></span>
 			</div>
 			<div class="month">
 				<span class="block">Month</span>
-				<span>$191.21</span>
+				<span id="profitMonthly"></span>
 			</div>
 		</section>
 		<section class="coin">
@@ -46,8 +53,7 @@
 			<ul>
 				<li>Algo<span id="spanAlgo" class="block"></span></li>
 				<li>Coin<span id="spanCoin" class="block"></span></li>
-				<li>Speed<span id="spanSpeed" class="block"></span></li>
-				<li>Profit<span id="spanProfit" class="block"></span></li>
+				<li>Avg.HR<span id="spanSpeed" class="block"></span></li>
 			</ul>
 		</section>
 		<section class="buttons">
@@ -59,6 +65,9 @@
 			</form>
 			<form class="" action="index.html" method="post">
 				<button id="reboot" type="submit" name="reboot">Reboot</button>
+			</form>
+			<form id="update" class="" action="index.html" method="get">
+				<button type="submit" name="update">Update</button>
 			</form>
 
 		</section>

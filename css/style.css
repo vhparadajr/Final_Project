@@ -67,6 +67,16 @@ body {
   padding: 8px;
   display: inline-block;
 }
+.subLeft{
+  width: 50%;
+  border: 1px solid;
+  float: left;
+}
+.subRight{
+  width: 50%;
+  border: 1px solid;
+  float: right;
+}
 /* section 3 */
 .revenue{
   border: 1px solid;
